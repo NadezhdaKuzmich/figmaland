@@ -54,7 +54,7 @@
 
 .feature__video::after {
   content: "";
-  background-image: url("../../images/play-button.svg");
+  background-image: url("../images/play-button.svg");
   position: absolute;
   background-size: 61px 61px;
   width: 61px;
@@ -66,7 +66,7 @@
 
 @media screen and (max-width: 767px) {
   .feature__video {
-    background-image: url(../../images/screen-video.jpg);
+    background-image: url(../images/screen-video.jpg);
     background-position: center;
   }
 
