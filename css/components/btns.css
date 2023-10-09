@@ -1,0 +1,59 @@
+.btn {
+  font-size: 20px;
+  line-height: 20px;
+  color: var(--white);
+  background: var(--btn-color);
+  border: none;
+  border-radius: 35px;
+  padding: 16px 62px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.btn-bold {
+  line-height: 28px;
+  font-weight: 700;
+  padding: 16px 60px;
+}
+
+.form-sub .btn {
+  padding: 19px 38px;
+}
+
+.contact-form .btn {
+  align-self: self-start;
+  padding: 18px 48px;
+}
+
+.active .btn {
+  color: var(--btn-color);
+  background: var(--white);
+}
+
+.btn:hover,
+a.btn:hover {
+  transform: scale(1.07);
+  color: var(--white);
+  background: var(--btn-hover);
+}
+
+.fa-brands {
+  font-size: 38px;
+  color: var(--white);
+  transition: all 0.5s ease;
+}
+
+.icon-blue {
+  color: var(--btn-color);
+  transition: all 0.5s ease;
+}
+
+.fa-brands:hover {
+    transform: scale(1.12);
+    color: var(--btn-hover);
+}
+
+.icon-blue:hover {
+    transform: scale(1.12);
+    color: var(--icon-blue-hover);
+}

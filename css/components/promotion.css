@@ -1,0 +1,50 @@
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 28px;
+  padding: 90px 0;
+  gap: 60px;
+}
+
+.promotion__content {
+  width: 355px;
+  margin: 0 0 60px;
+}
+
+.promotion__description {
+  line-height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .promotion__content {
+    max-width: 524px;
+    width: -webkit-fill-available;
+  }
+
+  .promotion__img {
+    max-width: 500px;
+  }  
+}
+
+@media screen and (min-width: 992px) {
+  .promotion {
+    flex-wrap: nowrap;
+    text-align: left;
+    font-size: 28px;
+    padding: 226px 0;
+    gap: 50px;
+  }
+
+  .promotion__img {
+    max-width: 562px;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+  .promotion__img {
+    max-width: 662px;
+  }  
+}

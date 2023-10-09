@@ -1,0 +1,110 @@
+.subscribe {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "info"
+    "img"
+    "form";
+  margin: 80px 0;
+  row-gap: 60px;
+}
+
+.subscribe__img {
+  grid-area: img;
+}
+
+.subscribe__content {
+  grid-area: info;
+}
+
+.subscribe__sub-title,
+.subscribe__form-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.subscribe__sub-title {
+  margin-bottom: 25px;
+}
+
+.subscribe__title {
+  color: var(--text-grey);
+  margin: 10px 0 34px;
+}
+
+p.remove {
+  font-size: 28px;
+}
+
+.subscribe__form {
+  grid-area: form;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subscribe__form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 34px 0;
+  gap: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe__form-input {
+    width: 100%;
+  }
+
+  .subscribe__form-container .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe {
+    row-gap: 20px;
+  }
+
+  .subscribe__img {
+    max-width: 678px;
+  }
+
+  .remove {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .subscribe {
+    grid-template-areas:
+      "img info"
+      "img form";
+    row-gap: 0px;
+    column-gap: 50px;
+  }
+
+  .subscribe__content,
+  .subscribe__form {
+    text-align: left;
+  }
+
+  .subscribe__content {
+    max-width: 324px;
+    align-self: flex-end;
+  }
+  
+  .subscribe__form {
+    align-self: flex-start;
+    gap: 0;
+  }
+
+  .subscribe__form-container {
+    justify-content: left;
+  }
+}

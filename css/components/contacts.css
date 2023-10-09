@@ -1,0 +1,93 @@
+.contact {
+  padding: 203px 0 102px;
+}
+
+.contact__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.contact__form,
+.contact__form-elements {
+  max-width: 453px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-dark);
+  gap: 45px;
+}
+
+.contact__form {
+  max-width: 453px;
+  border: 1px solid var(--border-form);
+  box-shadow: 2px 11px 12px var(--shadow-color);
+  border-radius: 20px;
+  padding: 52px 50px;
+}
+
+.contact__form-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.contact__input {
+  min-width: 353px;
+  padding: 19px 20px;
+}
+
+.contact__form-elements .btn {
+  align-self: self-start;
+  padding: 18px 48px;
+}
+
+.contact__address-info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.address__list {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.address__item {
+  max-width: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.address__text a {
+  color: var(--text-grey);
+}
+
+.address__text {
+  font-size: 16px;
+}
+
+.icon-location {
+  width: 28px;
+}
+
+.icon-phone {
+  width: 22px;
+}
+
+.icon-mail {
+  width: 32px;
+}
+
+.contact__map {
+  width: 516px;
+  height: 330px;
+}
