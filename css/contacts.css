@@ -3,6 +3,7 @@
 }
 
 .contact__info {
+  min-width: 300px;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
