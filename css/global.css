@@ -6,16 +6,19 @@
 
 :root {
   --white: #fff;
-  --text-dark: #252B42;
+  --text-dark: #252b42;
   --text-grey: #374754;
   --btn-color: #2091f9;
   --btn-hover: #43b6ff;
+  --color-menu: #3c3c3c;
+  --color-title-menu: #323235e3;
+  --hr-menu: #e376fb;
   --icon-blue-hover: #1977cf;
   --input-background: #f4f4f4;
   --border-form: #dddddd;
   --border-input: #e8e8e8;
   --partners-border: #d8d8d8;
-  --shadow-color: rgba(0, 0, 0, 0.15); 
+  --shadow-color: rgba(0, 0, 0, 0.15);
   scroll-behavior: smooth;
 }
 
@@ -85,7 +88,7 @@ iframe {
 
 .form-input,
 textarea {
-  min-width: 274px;
+  min-width: 100%;
   font-size: 14px;
   line-height: 16px;
   background: var(--input-background);
@@ -106,5 +109,9 @@ textarea::-webkit-input-placeholder {
   .content-box {
     max-width: 552px;
     width: -webkit-fill-available;
+  }
+  .form-input,
+  textarea {
+    min-width: 274px;
   }
 }

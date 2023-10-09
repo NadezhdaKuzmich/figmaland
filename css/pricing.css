@@ -2,7 +2,7 @@
   width: 100%;
   color: var(--white);
   background: var(--text-dark);
-  padding: 100px 0;
+  padding: 110px 0;
 }
 
 .pricing__title {
@@ -77,11 +77,16 @@
 .active {
   color: var(--white);
   background: var(--btn-color);
-  padding: 83px 40px;
 }
 
 .active h3,
 .active .pricing__price-value,
 .active .pricing__price-currency {
   color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .active {
+    padding: 83px 40px;
+  }
 }

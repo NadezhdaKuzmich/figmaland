@@ -1,18 +1,19 @@
 .contact {
-  padding: 203px 0 102px;
+  padding: 150px 0;
 }
 
 .contact__info {
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 60px;
 }
 
 .contact__form,
 .contact__form-elements {
-  max-width: 453px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +22,6 @@
 }
 
 .contact__form {
-  max-width: 453px;
   border: 1px solid var(--border-form);
   box-shadow: 2px 11px 12px var(--shadow-color);
   border-radius: 20px;
@@ -35,7 +35,7 @@
 }
 
 .contact__input {
-  min-width: 353px;
+  width: 100%;
   padding: 19px 20px;
 }
 
@@ -46,24 +46,24 @@
 
 .contact__address-info {
   display: flex;
-  flex-direction: column;
-  gap: 50px;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 80px;
 }
 
 .address__list {
+  width: 90%;
   display: flex;
+  flex-direction: column;
   align-items: baseline;
-  flex-wrap: wrap;
+  margin: auto;
   gap: 15px;
 }
 
 .address__item {
-  max-width: 292px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   gap: 20px;
 }
 
@@ -87,7 +87,64 @@
   width: 32px;
 }
 
-.contact__map {
-  width: 516px;
-  height: 330px;
+@media screen and (min-width: 600px) {
+  .contact__form,
+  .contact__form-elements {
+    max-width: 453px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact__form,
+  .contact__form-elements {
+    max-width: 553px;
+  }
+
+  .contact__address-info {
+    gap: 50px;
+  }
+
+  .contact__map {
+    width: 516px;
+    height: 330px;
+  }
+}
+
+@media screen and (min-width: 892px) {
+  .contact__address-info {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact__info {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 50px;
+  }
+
+  .contact__form,
+  .contact__form-elements {
+    max-width: 453px;
+  }
+
+  .contact__address-info {
+    align-items: normal;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .address__list {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .address__item {
+    max-width: 292px;
+    flex-direction: column;
+    text-align: center;
+  }
 }

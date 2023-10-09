@@ -1,6 +1,6 @@
 @import url("../fonts/style.css");
 @import url("./global.css");
-@import url("./components/btns.css");
+@import url("./btns.css");
 @import url("./header.css");
 @import url("./features.css");
 @import url("./promotion.css");
@@ -10,4 +10,3 @@
 @import url("./pricing.css");
 @import url("./contacts.css");
 @import url("./footer.css");
-@import url("./btns.css")
