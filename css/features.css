@@ -118,7 +118,7 @@
   }
 
   .feature__video {
-    margin: 0;
+    margin: auto;
   }
 
   .feature__video::after {

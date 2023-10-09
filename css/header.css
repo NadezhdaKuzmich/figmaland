@@ -80,7 +80,7 @@ h1 {
     top: 0;
     background: var(--color-title-menu);
     border-bottom: 2px solid var(--hr-menu);
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .header.responsive .header__nav {

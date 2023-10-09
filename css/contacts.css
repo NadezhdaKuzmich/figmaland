@@ -25,7 +25,7 @@
   border: 1px solid var(--border-form);
   box-shadow: 2px 11px 12px var(--shadow-color);
   border-radius: 20px;
-  padding: 52px 50px;
+  padding: 52px 25px;
 }
 
 .contact__form-title {
@@ -40,8 +40,7 @@
 }
 
 .contact__form-elements .btn {
-  align-self: self-start;
-  padding: 18px 48px;
+  width: 100%;
 }
 
 .contact__address-info {
@@ -85,6 +84,18 @@
 
 .icon-mail {
   width: 32px;
+}
+
+@media screen and (min-width: 500px) {
+  .contact__form {
+    padding: 52px 50px;
+  }  
+
+  .contact__form-elements .btn {
+    width: auto;
+    align-self: self-start;
+    padding: 18px 48px;
+  }  
 }
 
 @media screen and (min-width: 600px) {
