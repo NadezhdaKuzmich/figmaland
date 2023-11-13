@@ -43,7 +43,7 @@
   font-weight: 400;
 }
 
-@media screen and (min-width: 530px) {
+@media(min-width: 530px) {
   .testimonials {
     max-width: 967px;
     font-size: 20px;
@@ -59,13 +59,13 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 768px) {
   .testimonials {
     font-size: 28px;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media(min-width: 992px) {
   .testimonials {
     padding: 110px 0 100px;
   }

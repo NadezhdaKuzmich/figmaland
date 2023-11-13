@@ -104,7 +104,7 @@ textarea::-webkit-input-placeholder {
   border-radius: 39px;
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 768px) {
   .content-box {
     max-width: 552px;
     width: -webkit-fill-available;
@@ -115,9 +115,21 @@ textarea::-webkit-input-placeholder {
   }
 }
 
-@media screen and (min-width: 580px) {
+@media(min-width: 580px) {
   .container {
     max-width: 1280px;
+    padding: 0 20px;
+  }
+}
+
+@media(min-width: 992px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .container {
     padding: 0 20px;
   }
 }

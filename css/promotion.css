@@ -18,7 +18,7 @@
   line-height: 40px;
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 768px) {
   .promotion__content {
     max-width: 524px;
     width: -webkit-fill-available;
@@ -29,7 +29,7 @@
   }  
 }
 
-@media screen and (min-width: 992px) {
+@media(min-width: 1040px) {
   .promotion {
     flex-wrap: nowrap;
     text-align: left;
@@ -43,7 +43,7 @@
   }  
 }
 
-@media screen and (min-width: 1200px) {
+@media(min-width: 1200px) {
   .promotion__img {
     max-width: 662px;
   }  

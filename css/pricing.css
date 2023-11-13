@@ -85,7 +85,7 @@
   color: var(--white);
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 1105px) {
   .active {
     padding: 83px 40px;
   }

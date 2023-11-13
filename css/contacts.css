@@ -87,26 +87,28 @@
   width: 32px;
 }
 
-@media screen and (min-width: 500px) {
+@media(min-width: 500px) {
   .contact__form {
     padding: 52px 50px;
-  }  
+  }
 
   .contact__form-elements .btn {
     width: auto;
     align-self: self-start;
     padding: 18px 48px;
-  }  
+  }
 }
 
-@media screen and (min-width: 600px) {
+@media(min-width: 600px) {
+
   .contact__form,
   .contact__form-elements {
     max-width: 453px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 768px) {
+
   .contact__form,
   .contact__form-elements {
     max-width: 553px;
@@ -122,14 +124,14 @@
   }
 }
 
-@media screen and (min-width: 892px) {
+@media(min-width: 892px) {
   .contact__address-info {
     flex-direction: column;
     gap: 50px;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media(min-width: 992px) {
   .contact__info {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -146,7 +148,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media(min-width: 1200px) {
   .address__list {
     width: 100%;
     flex-direction: row;
@@ -158,5 +160,9 @@
     max-width: 292px;
     flex-direction: column;
     text-align: center;
+  }
+
+  .contact__map {
+    width: 622px;
   }
 }

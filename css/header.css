@@ -58,7 +58,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 767px) {
+@media(max-width: 767px) {
   .header__nav,
   .header .social-icons {
     display: none;
@@ -72,7 +72,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media(max-width: 767px) {
   .header.responsive .header__sub-menu {
     position: absolute;
     width: 100%;
@@ -133,7 +133,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 768px) {
   .header__container {
     max-width: 1198px;
     display: flex;
@@ -182,7 +182,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media(min-width: 992px) {
   .header__nav-box {
     grid-template-columns: 437px auto auto;
   }

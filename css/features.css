@@ -64,7 +64,7 @@
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 767px) {
+@media(max-width: 767px) {
   .feature__video {
     background-image: url(../images/screen-video.jpg);
     background-position: center;
@@ -75,7 +75,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 768px) {
   .features__list {
     max-width: 870px;
     justify-self: center;
@@ -100,7 +100,7 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media(min-width: 992px) {
   .features {
     grid-template-areas:
       "info"

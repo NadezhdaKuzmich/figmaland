@@ -68,7 +68,7 @@ footer a {
   width: 42px;
 }
 
-@media screen and (min-width: 600px) {
+@media(min-width: 600px) {
   .footer__content {
     gap: 125px;
   }
@@ -81,7 +81,7 @@ footer a {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media(min-width: 992px) {
   .footer__content {
     max-width: 992px;
     flex-direction: row;

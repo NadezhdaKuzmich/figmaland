@@ -31,13 +31,13 @@
   width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media(max-width: 767px) {
   .partners__list li:not(:nth-child(-n + 3)) {
     display: none;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 768px) {
   .partners__list {
     gap: 0;
   }
@@ -47,13 +47,13 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media(min-width: 992px) {
   .partners__list-item {
     width: 25%;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media(min-width: 1200px) {
   .partners__list-item {
     width: fit-content;
   }
